@@ -4,9 +4,6 @@ import os
 
 ec2 = boto3.client('ec2')
 autoScalingClient = boto3.client('autoscaling')
-aws_region = os.environ['AWS_REGION']
-sts = boto3.client("sts")
-aws_account = sts.get_caller_identity()["Account"]
 autoSaclingGrpPro = ['Launch',
                 'Terminate',
                 'HealthCheck',
