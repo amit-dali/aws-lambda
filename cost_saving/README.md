@@ -23,3 +23,6 @@ To test these Lambda's you can use following input json;
 }
 
 There are other solutions available provided by AWS itself, but those are requires more AWS resource usage such as DynamoDB as well as less control over the Lambda function code.
+
+TODO:
+Predictive scheduling using machine learning, with help of algorithms that detect changes in daily patterns and marking identified resources. This is with reference to Predictive Scaling feature of AWS.
